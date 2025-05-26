@@ -1,32 +1,30 @@
+import "./sobre.css"
 import { Header } from "../../components/header/header"
 import { Footer } from "../../components/footer/footer"
-import { Slider } from "../../components/slider/slider"
-import "./home.css"
-import Image1 from "../../assets/image1.png"
 import { transformidadeData } from "../../utils/constants"
 import { indicadoresData } from "../../utils/constants"
+import Image1 from "../../assets/image8.png"
 
-export const Home = () => {
-
-
+export const Sobre = () => {
 
 
     return (
         <div className="container flex">
             <Header />
-            <div className="contentSlider">
-
-                <Slider />
-            </div>
 
             <div className="content">
-                <div className="introContent">
-                    <div className="introImg">
+                <div className="emphasisContent">
+                    <div className="emphasisImg">
                         <img src={Image1} />
                     </div>
-                    <div className="introDetails">
-                        <h3>eMergia: O início</h3>
-                        <p>A busca por modelos sustentáveis impõe o desafio de medir não apenas os custos econômicos, mas também os impactos ecológicos e energéticos dos sistemas modernos. O conceito de eMergia, proposto por Howard T. Odum, considera toda a energia ambiental (especialmente solar) necessária para produzir bens, serviços ou manter sistemas. Essa abordagem é essencial para avaliar a sustentabilidade de infraestruturas computacionais e demais sistemas tecnológicos.</p>
+                    <div className="emphasisDetails">
+                        <h3>O que é eMergia?</h3>
+                        <p>O termo eMergia, com “M” maiúsculo para diferenciá-lo de “energia”, foi desenvolvido por Howard T. Odum e refere-se à energia previamente utilizada, direta ou indiretamente, para a geração de um produto ou serviço. <br /><br />
+                            Trata-se de uma abordagem sistêmica de contabilização energética, na qual todos os recursos naturais e processos necessários à obtenção de determinado bem ou função são convertidos em uma unidade comum: o joule solar equivalente (seJ). <br /> <br />
+                            Dessa forma, a emergia permite rastrear toda a cadeia de transformações energéticas, desde a energia solar absorvida pelas plantas até os processos industriais modernos, oferecendo um indicador acumulativo do custo energético ambiental de qualquer sistema. Conforme Odum (1996), emergia é “a energia de um tipo necessária — direta e indiretamente — para fazer um serviço ou produto e que foi transformada em outra forma de energia”. <br /><br />
+                            A emergia distingue-se de outras abordagens ambientais por considerar não apenas o consumo direto de energia (como eletricidade), mas também a energia incorporada nos materiais, no trabalho humano, na tecnologia e até nos serviços ecossistêmicos. Essa análise global é essencial para mensurar a sustentabilidade de sistemas produtivos, especialmente quando se deseja comparar o uso de recursos renováveis e não renováveis em diferentes alternativas tecnológicas ou organizacionais. <br /><br />
+                            Segundo a metodologia emergética, os sistemas com maior uso de recursos naturais renováveis e menor dependência de recursos industriais tendem a apresentar melhores indicadores de sustentabilidade, como o Índice de Sustentabilidade Emergética (ESI). A aplicação da emergia tem se expandido em áreas como agricultura, urbanismo, planejamento energético e, mais recentemente, na avaliação de sistemas computacionais, incluindo data centers e infraestruturas de computação em nuvem. <br /><br />
+                        </p>
                     </div>
                 </div>
 

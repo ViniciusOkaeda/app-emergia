@@ -1,0 +1,57 @@
+
+.react-multi-carousel-track {
+    margin-top: 0;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 60vmax;
+}
+
+.carouselItem {
+    width: 100%;
+    height: 60vmax;
+    display: flex;
+    padding: 25px;
+    align-items: flex-end;
+}
+
+.carouselContent {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carouselContent h1 {
+    color: #cce9d9;
+}
+
+.carouselContent p {
+    color: #86c4a2;
+    margin: 10px 0;
+}
+
+.carouselContent button {
+    margin-top: 20px;
+    width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-container {
+        height: 500px !important;
+    }
+
+    .carouselItem {
+    height: 500px;
+}
+
+.carouselContent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carouselContent p {
+    max-width: 50%;
+}
+}
