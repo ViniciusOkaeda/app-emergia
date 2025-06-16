@@ -1,12 +1,29 @@
-# React + Vite
+# Como executar a aplicação
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### A maioria dos projetos JavaAcript são executados através do NPM (node Package Manager)
+#### Essa aplicação é desenvolvida em React.js, o framework JavaScript mais popular nos últimos anos
 
-Currently, two official plugins are available:
+1 - Instalação do Node.js e NPM
+Node.js já inclui o NPM (gerenciador de pacotes).
+Para instalar:
+Acesse nodejs.org
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Baixe e instale a versão recomendada (LTS) para seu sistema.
 
-## Expanding the ESLint configuration
+Para confirmar a instalação, abra o terminal e rode:
+node -v
+npm -v
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2 - Instalar as dependências do projeto
+Basta executar no terminal (na raíz do projeto) o comando "npm install" e aguardarn a instalação
+
+3 - Executar a aplicação
+Basta executar no terminal (na raíz do projeto) o comando "npm run dev"
+
+4 - Acessar a aplicação
+Na saída do terminal aparecerá que a aplicação poderá ser acessada pela URL: http://localhost:5173/
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+
